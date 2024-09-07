@@ -17,16 +17,6 @@ While watsonx.ai may not directly create detailed construction blueprints (which
 
 ## 3. *Collaboration with CAD Software*  
 Watsonx.ai could be integrated with existing architectural software (like AutoCAD, Revit, or SketchUp) to provide smart suggestions and help refine the final blueprints. For example, after initial designs are created by an architect, watsonx.ai could:
-#### 4. *Architectural Modeling*  
-Watsonx.ai can assist in creating 3D models of proposed designs, allowing architects to visualize the structure in virtual environments. These models can incorporate feedback loops, allowing designers to test variations in materials, layouts, and even decorative elements.
-
-- Identify areas where materials could be optimized.
-- Suggest alternative layouts or structural changes for better sustainability or aesthetics.
-- Adjust designs based on real-time input from users or project constraints.
-
-__________________________
-
-IBM watsonx.ai is **not a blueprint design tool** in itself, so it won't directly generate a full architectural blueprint or produce CAD-specific code (e.g., AutoCAD code). However, watsonx.ai can provide valuable insights and optimizations that could influence the design process. Here’s how it might assist in generating blueprint-related data:
 
 ### 1. *Design Parameters Generation*
 While it cannot directly create blueprints, watsonx.ai can help you:
@@ -43,9 +33,16 @@ Watsonx.ai might output calculations or logic that you can integrate into the CA
 - Recommendations or *pseudocode* or Dynamo code for placement and alignment of structural elements, which you can implement into CAD tools like AutoCAD or FreeCAD.
 - *Code or algorithms* to calculate optimal dimensions for room layouts or HVAC systems.
 
-### 4. *Guidance for Automating Blueprint Generation*
-You could use watsonx.ai in combination with a design tool that has an API (such as AutoCAD) to generate part of the blueprint creation code. While it won't generate the final blueprint, watsonx.ai could assist with automating certain aspects of the design. For instance:
-- Providing inputs for parametric design: You could use watsonx.ai to create or modify parameters (like room sizes, wall placements, window positioning), and feed these parameters into an existing design script within a CAD tool.
+__________________________
+
+#### 4. *Architectural Modeling*  
+Watsonx.ai can assist in creating 3D models of proposed designs, allowing architects to visualize the structure in virtual environments. These models can incorporate feedback loops, allowing designers to test variations in materials, layouts, and even decorative elements.
+
+- Identify areas where materials could be optimized.
+- Suggest alternative layouts or structural changes for better sustainability or aesthetics.
+- Adjust designs based on real-time input from users or project constraints.
+
+
 
 ### Example:
 1. Watsonx.ai helps calculate the *optimal size and placement of windows* for natural light and ventilation.
@@ -56,6 +53,8 @@ Other recommendations it can offer:
   - Room dimensions optimized for airflow and natural lighting.
   - Placement of windows and insulation for maximum energy efficiency.
 
+### To be noted
+IBM watsonx.ai is **not a blueprint design tool** in itself, so it won't directly generate a full architectural blueprint or produce CAD-specific code (e.g., AutoCAD code). However, watsonx.ai can provide valuable insights and optimizations that could influence the design process. Here’s how it might assist in generating blueprint-related data
 ## Summary
 While watsonx.ai doesn't directly output a blueprint, it can assist by generating the underlying *logic, design parameters, and optimization suggestions* that can be incorporated into blueprint code or architectural design software. You would then implement these outputs in a tool like AutoCAD, FreeCAD, or SketchUp to produce the actual blueprint.
 
