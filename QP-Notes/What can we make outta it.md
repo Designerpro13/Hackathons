@@ -14,7 +14,7 @@ AI can generate optimized designs for structural components, ensuring they meet 
 
 ## [Go To File](./What%20can%20it%20do.md/)
 
-(--OPTIONAL IDEA--)
+(--OPTIONAL IDEAS--)
 ## Collaboration and Communication: 
 AI can facilitate better collaboration among architects, engineers, and clients by providing a platform for sharing design options and insights. Natural language processing capabilities can help in understanding and addressing client feedback more effectively.
 

@@ -59,5 +59,7 @@ Other recommendations it can offer:
 ## Summary
 While watsonx.ai doesn't directly output a blueprint, it can assist by generating the underlying *logic, design parameters, and optimization suggestions* that can be incorporated into blueprint code or architectural design software. You would then implement these outputs in a tool like AutoCAD, FreeCAD, or SketchUp to produce the actual blueprint.
 
-1. [How would you like help setting up this kind of workflow or working with a specific design tool?](#)
-2. [How would you like to explore how to integrate such a tool into a specific design process?](#)
+
+Learn - 
+   1.  [How would you like help setting up this kind of workflow or working with a specific design tool?](#)
+  2. [How would you like to explore how to integrate such a tool into a specific design process?](#)
