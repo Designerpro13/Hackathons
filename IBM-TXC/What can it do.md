@@ -54,11 +54,11 @@ Other recommendations it can offer:
   - Placement of windows and insulation for maximum energy efficiency.
 
 ### To be noted
-IBM watsonx.ai is **not a blueprint design tool** in itself, so it won't directly generate a full architectural blueprint or produce CAD-specific code (e.g., AutoCAD code). However, watsonx.ai can provide valuable insights and optimizations that could influence the design process. Here’s how it might assist in generating blueprint-related data
+IBM watsonx.ai is **not a blueprint design tool** in itself, so it won't directly generate a full architectural blueprint or produce CAD-specific code (e.g., AutoCAD code). However, watsonx.ai can provide valuable insights and optimizations that could influence the design process. 
 ## Summary
 While watsonx.ai doesn't directly output a blueprint, it can assist by generating the underlying *logic, design parameters, and optimization suggestions* that can be incorporated into blueprint code or architectural design software. You would then implement these outputs in a tool like AutoCAD, FreeCAD, or SketchUp to produce the actual blueprint.
 
 
 Learn - 
-   1.  [How would you like help setting up this kind of workflow or working with a specific design tool?](#)
-  2. [How would you like to explore how to integrate such a tool into a specific design process?](#)
+   1.  [How would we set up this kind of workflow or working with a specific design tool?](#)
+  2. [How would we integrate such a tool into a specific design process?](#)
