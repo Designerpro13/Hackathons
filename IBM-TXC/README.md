@@ -10,4 +10,5 @@
 ## Resources 
 1. [What potential does watsonx hold](./What%20can%20we%20make%20outta%20it.md)
 2. [What goals can we achive](./What%20can%20we%20make%20outta%20it.md)
-3. ...
+3. [Template - Sample data](./sample_data_outline_v01.md)
+4. ...
