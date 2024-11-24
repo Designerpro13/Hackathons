@@ -83,6 +83,9 @@ body {
     border-radius: 25px;
     z-index: -1;
 }
+.search-bar form{
+    flex-grow: 1;
+}
 .search-bar input {
     border: none;
     background: none;
