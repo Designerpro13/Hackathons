@@ -20,31 +20,41 @@
     </div>
     <div class="flex flex-col items-center mt-10">
         <div class="w-32 h-32 bg-gray-300 flex items-center justify-center rounded-lg relative overflow-hidden">
-            <div class="w-24 h-24 border-2 border-gray-500 relative z-10"></div>
+            <div class="w-24 h-24 border-2 border-gray-500 relative z-10"> </div>
             <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-pink-400 opacity-75"></div>
         </div>
         <div class="search-bar mt-10">
-            <input type="text" placeholder="Search" />
+            <form action="https://duckduckgo.com/">
+            <input type="text" name="q" placeholder="Search" />
+            </form>
+            <!-- <input 
+                type="text" 
+                class="search-input"
+                placeholder="Search Google..."
+                onchange='window.location="google.com/search?q=" + this.value'
+            > -->
             <i class="fas fa-search">
                 <a></a>
             </i>
         </div>
         <div class="mt-5 text-lg w-3/5 text-left">Try</div>
         <div class="suggestions w-3/5">
+            <a href="https://colab.research.google.com/drive/12dVqXZMIVxGI0uutU6HG9RWbWPXL3vts?usp=sharing">
+                <button class="suggestion-button" onclick="location.href='{{ url_for('view') }}'">
+                    <span>Latest Buying options for Laptops
+                    <i class="fas fa-square"></i>
+                </button>
+            </a>
             <button class="suggestion-button" onclick="location.href='{{ url_for('view') }}'">
-                <span>Lorem ipsum dolor sit
+                <span>Top stocks insights.
                 <i class="fas fa-square"></i>
             </button>
             <button class="suggestion-button">
-                <span>Hipster ipsum tattooed brunch
+                <span>News on finger tips
                 <i class="fas fa-square"></i>
             </button>
             <button class="suggestion-button">
-                <span>Hipster ipsum tattooed brunch
-                <i class="fas fa-square"></i>
-            </button>
-            <button class="suggestion-button">
-                <span>Pirate ipsum arrgh bounty warp
+                <span>Wrap up on weekend
                 <i class="fas fa-square"></i>
             </button>
         </div>
