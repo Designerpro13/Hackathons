@@ -7,7 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="css\styles.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="flex justify-between items-center p-4 bg-gradient-to-r from-blue-200 to-pink-200">
@@ -30,7 +31,7 @@
         </div>
         <div class="mt-5 text-lg w-3/5 text-left">Try</div>
         <div class="suggestions w-3/5">
-            <button class="suggestion-button">
+            <button class="suggestion-button" onclick="location.href='{{ url_for('view') }}'">
                 <span>Lorem ipsum dolor sit
                 <i class="fas fa-square"></i>
             </button>
