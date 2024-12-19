@@ -1,0 +1,59 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .gradient-border {
+            border: 0.45px solid;
+            border-image-slice: 1;
+            border-width: 0.45px;
+            border-image-source: linear-gradient(to right, #ff007f, #8a2be2, #0000ff, #ff0000);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body class="bg-white flex flex-col items-center justify-center min-h-screen">
+    <div class="w-full bg-gradient-to-r from-blue-200 to-pink-200 p-4 flex justify-between items-center fixed top-0 left-0 rounded-lg">
+        <div class="text-2xl font-bold text-purple-600">SecSrc</div>
+        <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center gradient-border">
+            <i class="fas fa-user"></i>
+        </div>
+    </div>
+    <div class="mt-16">
+        <div class="w-40 h-40 bg-gray-300 flex items-center justify-center rounded-lg">
+            <div class="w-24 h-24 border-2 border-gray-500 rounded-lg"></div>
+        </div>
+    </div>
+    <div class="mt-8 w-3/4 md:w-1/2 lg:w-1/3 flex items-center bg-gray-200 rounded-full shadow-lg gradient-border">
+        <input type="text" placeholder="Search" class="w-full p-4 bg-transparent outline-none text-gray-600 rounded-full">
+        <div class="p-4">
+            <i class="fas fa-search text-gray-600"></i>
+        </div>
+    </div>
+    <div class="mt-8 text-gray-600 flex flex-col items-center p-4 rounded-lg">
+        <div class="text-lg font-semibold">Try</div>
+        <div class="grid grid-cols-3 gap-2 mt-2">
+            <a href="#" class="m-2 p-2 bg-gray-300 rounded flex items-center hover:bg-gray-400 gradient-border">
+                <span class="mr-2">Lorem ipsum dolor sit</span>
+                <div class="w-4 h-4 bg-black rounded-full"></div>
+            </a>
+            <a href="#" class="m-2 p-2 bg-gray-300 rounded flex items-center hover:bg-gray-400 gradient-border">
+                <span class="mr-2">Hipster ipsum tattooed brunch</span>
+                <div class="w-4 h-4 bg-black rounded-full"></div>
+            </a>
+            <a href="#" class="m-2 p-2 bg-gray-300 rounded flex items-center hover:bg-gray-400 gradient-border">
+                <span class="mr-2">Hipster ipsum tattooed brunch</span>
+                <div class="w-4 h-4 bg-black rounded-full"></div>
+            </a>
+            <a href="#" class="m-2 p-2 bg-gray-300 rounded flex items-center hover:bg-gray-400 gradient-border">
+                <span class="mr-2">Pirate ipsum arrgh bounty warp</span>
+                <div class="w-4 h-4 bg-black rounded-full"></div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
