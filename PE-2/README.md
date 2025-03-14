@@ -37,14 +37,71 @@ The extension is built using the WebExtensions API, which ensures compatibility 
   - Retrieves document cookies and evaluates their security flags.
   - Highlights potential risks due to missing `HttpOnly`, `Secure`, or `SameSite` attributes.
 
-## 4. Usability and Real-World Applications
+## 4. Getting Started
+
+This section guides you through the process of installing and using the InfiltraFox extension.
+
+### 4.1 Installation
+
+**Development Mode (Recommended):**
+
+1. **Clone the Repository**
+
+2. **Open Firefox and Navigate to `about:debugging`:**
+    - In the Firefox address bar, type `about:debugging` and press Enter.
+
+3. **Enable "This Firefox":**
+    - Ensure that "This Firefox" is selected in the left sidebar.
+
+4. **Load Temporary Add-on:**
+    - Click the "Load Temporary Add-on..." button.
+    - Navigate to the directory where you cloned the repository and select the `manifest.json` file.
+
+**Note:** Loading the extension as a temporary add-on will allow the extension to run in firefox, but it will not persist through a browser restart. Each time the browser closes, you will need to reload the extension with the same process as above.
+
+### 4.2 Usage
+
+1. **Navigate to a Website:**
+    - Open a new tab and go to the website you want to analyze.
+
+2. **Open the Extension Popup:**
+    - Click the InfiltraFox icon in your Firefox toolbar. It should be present among the rest of your browser extensions.
+
+3. **Choose a Mode:**
+    - In the popup, toggle between "Red Team" and "Blue Team" modes to switch between offensive and defensive analysis.
+
+4. **Review Analysis:**
+    - The popup will display the analysis results, highlighting potential vulnerabilities.
+
+5. **Understand Recommendations:**
+    - Read the recommendations provided for each identified vulnerability to understand how it can be exploited (Red Team) or how to fix it (Blue Team).
+
+### 4.3 Uninstallation
+
+If you are using the temporary installation method, the extension will be uninstalled when the browser closes.
+If you package and install the extension with the traditional method, you can go to `about:addons`, and find the extension on the page, to uninstall it there.
+
+## 5. Disclaimer/Caution
+
+**IMPORTANT:** InfiltraFox is intended for educational and research purposes only. It is designed to help security professionals and developers understand potential web application vulnerabilities.
+
+**Ethical Use:**
+
+- **Legality:** Always ensure that you have explicit permission to analyze and test a website or web application for security vulnerabilities. Unauthorized testing can be illegal.
+- **Do Not Use Maliciously:** This tool should never be used for illegal or unethical activities, such as unauthorized hacking or data theft.
+- **No Guarantees:** InfiltraFox is not a comprehensive security solution. It may not detect all possible vulnerabilities. The absence of detected vulnerabilities does not guarantee that a website is secure.
+- **False Positives:** The extension may sometimes produce false positives, flagging secure elements as vulnerable. It is important to use your judgment and verify the results.
+
+**Responsibility:** The developers of InfiltraFox are not responsible for any misuse of the extension or for any damage caused by its use. You are solely responsible for ensuring that your use of this tool complies with all applicable laws and regulations.
+
+## 6. Usability and Real-World Applications
 
 - **Security Professionals:** A quick, browser-integrated scanning tool for preliminary assessments.
 - **Developers:** Helps identify security flaws during web development without relying on external penetration testing tools.
 - **Bug Bounty Hunters:** Streamlines vulnerability hunting for common attack vectors.
 - **Educators & Students:** Provides a hands-on learning tool for cybersecurity training.
 
-## 5. References
+## 7. References
 
 - OWASP Foundation. (2024). OWASP Top 10 Web Application Security Risks. Retrieved from [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
 - Mozilla Developer Network. (2024). WebExtensions API Documentation. Retrieved from [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
@@ -52,6 +109,6 @@ The extension is built using the WebExtensions API, which ensures compatibility 
 
 ## Conclusion
 
- The "InfiltraFox" browser extension provides a lightweight yet effective approach to detecting common web security vulnerabilities. By integrating Red and Blue Team methodologies, it serves as both an offensive testing tool and a defensive security guide. Future enhancements could include deeper integration with external scanning tools and real-time API-based security assessments.
+The "InfiltraFox" browser extension provides a lightweight yet effective approach to detecting common web security vulnerabilities. By integrating Red and Blue Team methodologies, it serves as both an offensive testing tool and a defensive security guide. Future enhancements could include deeper integration with external scanning tools and real-time API-based security assessments.
 
 ---
