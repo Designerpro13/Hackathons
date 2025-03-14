@@ -5,9 +5,9 @@
     "description": "A Firefox extension for web security analysis and vulnerability detection.",
 
     "icons": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "icons/icon16.ico",
+      "48": "icons/icon48.ico",
+      "128": "icons/icon128.ico"
     },
     "browser_action": {
       "default_popup": "popup.html"
@@ -18,6 +18,11 @@
         "js": ["contentScript.js"]
       }
     ],
+    "background":
+      {
+        "scripts": ["background.js"]
+      },
+    
     "permissions": [
         "activeTab",
         "storage",
